@@ -63,6 +63,8 @@ docker push <aws_account_id>.dkr.ecr.us-east-1.amazonaws.com/nodejs-app:latest
 - Push to ECR
 - Attach the CodeBuild service role with ECR and ECS permissions.
 
+  ![codebuild](https://github.com/rukevweubio/Deploy-nodejs-app-with-codecommit-codebuild-codedeploy-and-codepipeline/blob/main/screenshoot/Screenshot%20(1360).png)
+
 ### Create AWS CodePipeline
 - Define stages:
 - Source: AWS CodeCommit
