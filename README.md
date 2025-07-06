@@ -42,11 +42,14 @@ cd Deploy-nodejs-app-with-codecommit-codebuild-codedeploy-and-codepipeline
 - Build and Push Docker Image Manually (Optional)
 
 ```
+
 $(aws ecr get-login --no-include-email --region us-east-1)
 docker build -t nodejs-app .
 docker tag nodejs-app:latest <aws_account_id>.dkr.ecr.us-east-1.amazonaws.com/nodejs-app:latest
 docker push <aws_account_id>.dkr.ecr.us-east-1.amazonaws.com/nodejs-app:latest
 ```
+![ ecr repo](https://github.com/rukevweubio/Deploy-nodejs-app-with-codecommit-codebuild-codedeploy-and-codepipeline/blob/main/screenshoot/Screenshot%20(1359).png)
+
 ### Create ECS Cluster and Service
 - Create an ECS Cluster (Fargate).
 - Create a task definition using ecs-task-def.json.
