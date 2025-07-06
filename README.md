@@ -56,6 +56,7 @@ docker push <aws_account_id>.dkr.ecr.us-east-1.amazonaws.com/nodejs-app:latest
 - Create an ECS Service linked with Application Load Balancer (ALB).
 
 ![ecs cluster](https://github.com/rukevweubio/Deploy-nodejs-app-with-codecommit-codebuild-codedeploy-and-codepipeline/blob/main/screenshoot/Screenshot%20(1361).png)
+![ecs cluster created taskfile and service](https://github.com/rukevweubio/Deploy-nodejs-app-with-codecommit-codebuild-codedeploy-and-codepipeline/blob/main/screenshoot/Screenshot%20(1365).png)
 
 ### Setup AWS CodeBuild Project
 - Use buildspec.yml for build instructions:
@@ -110,6 +111,7 @@ artifacts:
 ```
 ## create asecurity group on th ec2 in ecs
  create or oprn the port for the web application  on the ec2 to allow traffic to flow in the port 
+ ![ec2 service port opening](https://github.com/rukevweubio/Deploy-nodejs-app-with-codecommit-codebuild-codedeploy-and-codepipeline/blob/main/screenshoot/Screenshot%20(1358).png)
  
 ## final app deployment
 ![the nodejs app in ecs](https://github.com/rukevweubio/Deploy-nodejs-app-with-codecommit-codebuild-codedeploy-and-codepipeline/blob/main/screenshoot/Screenshot%20(1370).png)
