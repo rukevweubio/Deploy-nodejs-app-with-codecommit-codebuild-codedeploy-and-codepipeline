@@ -109,7 +109,7 @@ phases:
 artifacts:
   files: imagedefinitions.json
 ```
-## create asecurity group on th ec2 in ecs
+## create security group on th ec2 to allow port traffic
  create or oprn the port for the web application  on the ec2 to allow traffic to flow in the port 
  ![ec2 service port opening](https://github.com/rukevweubio/Deploy-nodejs-app-with-codecommit-codebuild-codedeploy-and-codepipeline/blob/main/screenshoot/Screenshot%20(1358).png)
  
