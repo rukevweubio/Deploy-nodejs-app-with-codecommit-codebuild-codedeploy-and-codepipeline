@@ -55,6 +55,8 @@ docker push <aws_account_id>.dkr.ecr.us-east-1.amazonaws.com/nodejs-app:latest
 - Create a task definition using ecs-task-def.json.
 - Create an ECS Service linked with Application Load Balancer (ALB).
 
+![ecs cluster](https://github.com/rukevweubio/Deploy-nodejs-app-with-codecommit-codebuild-codedeploy-and-codepipeline/blob/main/screenshoot/Screenshot%20(1361).png)
+
 ### Setup AWS CodeBuild Project
 - Use buildspec.yml for build instructions:
 - Build Docker image
