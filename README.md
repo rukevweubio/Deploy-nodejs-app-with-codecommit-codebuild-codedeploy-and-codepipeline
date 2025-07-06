@@ -72,6 +72,8 @@ docker push <aws_account_id>.dkr.ecr.us-east-1.amazonaws.com/nodejs-app:latest
 - Deploy: AWS ECS (update service with new image)
 - Link pipeline to ECS Cluster and Service.
 - Configure pipeline to trigger on new commits to CodeCommit.
+- 
+![codepipeline](https://github.com/rukevweubio/Deploy-nodejs-app-with-codecommit-codebuild-codedeploy-and-codepipeline/blob/main/screenshoot/Screenshot%20(1362).png)
 
 Code Snippets
 Dockerfile
