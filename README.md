@@ -35,7 +35,7 @@ cd Deploy-nodejs-app-with-codecommit-codebuild-codedeploy-and-codepipeline
 - git remote add codecommit <CodeCommit-repo-URL>
 - git push codecommit main
 
-[create teh codecommit repo](
+![create the codecommit repo](https://github.com/rukevweubio/Deploy-nodejs-app-with-codecommit-codebuild-codedeploy-and-codepipeline/blob/main/screenshoot/Screenshot%20(1355).png)
   
 ### Create Amazon ECR Repository
 - aws ecr create-repository --repository-name nodejs-app --region us-east-1
